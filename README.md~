@@ -1,0 +1,13 @@
+# Tic Tac Toe
+
+> A javascript platform for the tic-tac-toe game
+
+
+## Play
+JsFiddle:
+
+
+## Instructions
+- Choose a two player mode or a computer mode.
+- Choose the size of the board (can get from 3X3 to 10X10)
+

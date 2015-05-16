@@ -1,0 +1,53 @@
+
+body {
+    background-color: black;
+}
+
+*{
+    outline: 0;
+}
+
+h1{
+    color: rgb(232, 124, 124);
+    text-align: center;
+}
+#game {
+    white-space: ccc;
+    text-align: center;
+}
+#game button {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    background-color: black;
+    border: 2px solid white;
+}
+#game button.top{
+    border-top: 0;
+}
+#game button.bottom{
+    border-bottom: 0;
+}
+#game button.right{
+    border-right: 0;
+}
+#game button.left{
+    border-left: 0;
+}
+
+#game button *{
+     pointer-events: none;
+}
+.icon-remove, .icon-circle-blank {
+    font-size: 57px;
+    color: white;
+
+    font-family: FontAwesome;
+    font-style: normal;
+}
+.icon-circle-blank:before {
+    content: "\f10c";
+}
+.icon-remove:before {
+    content: "\f00d";
+}
